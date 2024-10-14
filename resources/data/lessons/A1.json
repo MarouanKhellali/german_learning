@@ -1,0 +1,41 @@
+{
+    "level": "A1",
+    "lessons": [
+        {
+            "id": 1,
+            "title": "Introduction",
+            "content": {
+                "text": "Welcome to A1 level. This is the introduction lesson."
+            },
+            "questions": [
+                {
+                    "id": 1,
+                    "question_text": "What is 'Hallo' in English?",
+                    "options": ["Hello", "Goodbye", "Please", "Thank you"],
+                    "correct_option": 0
+                },
+                {
+                    "id": 2,
+                    "question_text": "What is the German word for 'Thank you'?",
+                    "options": ["Bitte", "Danke", "Ja", "Nein"],
+                    "correct_option": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Basics",
+            "content": {
+                "text": "In this lesson, we cover basic grammar."
+            },
+            "questions": [
+                {
+                    "id": 3,
+                    "question_text": "What is the German word for 'House'?",
+                    "options": ["Haus", "Baum", "Auto", "Straße"],
+                    "correct_option": 0
+                }
+            ]
+        }
+    ]
+}

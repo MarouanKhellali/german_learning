@@ -1,0 +1,47 @@
+{
+    "level": "B1",
+    "lessons": [
+        {
+            "id": 5,
+            "title": "Travel",
+            "content": {
+                "text": "Essential phrases for traveling in German-speaking countries."
+            },
+            "questions": [
+                {
+                    "id": 9,
+                    "question_text": "What does 'Wo ist der Bahnhof?' mean?",
+                    "options": ["Where is the hotel?", "Where is the station?", "How much is this?", "I need help."],
+                    "correct_option": 1
+                },
+                {
+                    "id": 10,
+                    "question_text": "Translate 'I would like a coffee' to German.",
+                    "options": ["Ich möchte einen Kaffee", "Ich habe einen Kaffee", "Ich trinke einen Kaffee", "Ich esse einen Kaffee"],
+                    "correct_option": 0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Shopping",
+            "content": {
+                "text": "Vocabulary and phrases for shopping."
+            },
+            "questions": [
+                {
+                    "id": 11,
+                    "question_text": "What is 'Kaufhaus' in English?",
+                    "options": ["Bakery", "Department Store", "Pharmacy", "Bookstore"],
+                    "correct_option": 1
+                },
+                {
+                    "id": 12,
+                    "question_text": "Translate 'How much does this cost?' to German.",
+                    "options": ["Wie viel kostet das?", "Wo ist das?", "Ich möchte das.", "Danke schön."],
+                    "correct_option": 0
+                }
+            ]
+        }
+    ]
+}

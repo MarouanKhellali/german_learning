@@ -1,0 +1,47 @@
+{
+    "level": "A2",
+    "lessons": [
+        {
+            "id": 3,
+            "title": "Family",
+            "content": {
+                "text": "This lesson introduces family-related vocabulary."
+            },
+            "questions": [
+                {
+                    "id": 5,
+                    "question_text": "What is 'Mutter' in English?",
+                    "options": ["Father", "Mother", "Brother", "Sister"],
+                    "correct_option": 1
+                },
+                {
+                    "id": 6,
+                    "question_text": "Translate 'Sibling' to German.",
+                    "options": ["Bruder", "Schwester", "Geschwister", "Onkel"],
+                    "correct_option": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Numbers",
+            "content": {
+                "text": "Learn how to count in German."
+            },
+            "questions": [
+                {
+                    "id": 7,
+                    "question_text": "What is 'Fünf' in English?",
+                    "options": ["Three", "Four", "Five", "Six"],
+                    "correct_option": 2
+                },
+                {
+                    "id": 8,
+                    "question_text": "Translate 'Seven' to German.",
+                    "options": ["Sechs", "Sieben", "Acht", "Neun"],
+                    "correct_option": 1
+                }
+            ]
+        }
+    ]
+}
