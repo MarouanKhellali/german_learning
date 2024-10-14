@@ -6,7 +6,7 @@
     @if($levels->count() > 0)
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             @foreach($levels as $level)
-                <a href="#" class="block p-6 bg-white rounded shadow hover:bg-gray-100">
+                <a href="{{ route('levels.show', $level->id) }}" class="block p-6 bg-white rounded shadow hover:bg-gray-100">
                     <h3 class="text-xl font-semibold">{{ $level->name }}</h3>
                 </a>
             @endforeach

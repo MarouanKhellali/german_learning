@@ -17,20 +17,20 @@ class HomeController extends Controller
     }
 
     // Show the dashboard after login
-    public function dashboard()
+   
+  public function dashboard()
     {
-        // Fetch all levels available in the system
+        // Fetch all levels
         $levels = Level::all();
 
-        // Fetch the authenticated user
+        // Fetch the user's progress (optional for your project)
         $user = Auth::user();
-
-        // Fetch the user's progress in each level, if any
         $progress = UserProgression::where('user_id', $user->id)->get();
 
-        // Pass both the levels and the user's progress to the dashboard view
+        // Pass levels and progress (if any) to the dashboard view
         return view('dashboard', compact('levels', 'progress'));
     }
+    
 
     // Show the user's progress for each level
     public function progress()
